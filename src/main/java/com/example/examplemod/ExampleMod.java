@@ -1,4 +1,4 @@
-package com.example.ExampleMod;
+package com.example.examplemod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
