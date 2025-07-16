@@ -12,7 +12,7 @@
 		"sources": "https://github.com/ItsAdarsh008/C418Discs"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png", //change this later
+	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
