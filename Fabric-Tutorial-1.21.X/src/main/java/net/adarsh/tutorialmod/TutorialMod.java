@@ -1,5 +1,6 @@
 package net.adarsh.tutorialmod;
 
+import net.adarsh.tutorialmod.block.ModBlocks;
 import net.adarsh.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 } //backup
