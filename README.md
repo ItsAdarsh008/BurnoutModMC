@@ -1,4 +1,4 @@
-# OST Discs
+# C418 Discs
 
 A minecraft mod which adds C418's original minecraft soundtrack as playable music discs.
 
