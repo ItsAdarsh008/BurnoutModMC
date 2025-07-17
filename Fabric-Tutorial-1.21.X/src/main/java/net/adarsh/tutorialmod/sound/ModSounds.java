@@ -41,6 +41,22 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> LIVING_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "living"));
 
+    public static final SoundEvent MOOG = registerSoundEvent("moog");
+    public static final RegistryKey<JukeboxSong> MOOG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "moog"));
+
+    public static final SoundEvent HAGGSTROM = registerSoundEvent("haggstrom");
+    public static final RegistryKey<JukeboxSong> HAGGSTROM_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "haggstrom"));
+
+    public static final SoundEvent MINECRAFT = registerSoundEvent("minecraft");
+    public static final RegistryKey<JukeboxSong> MINECRAFT_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "minecraft"));
+
+    public static final SoundEvent OXYGENE = registerSoundEvent("oxygene");
+    public static final RegistryKey<JukeboxSong> OXYGENE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "oxygene"));
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(TutorialMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

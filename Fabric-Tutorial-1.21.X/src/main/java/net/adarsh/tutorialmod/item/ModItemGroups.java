@@ -22,6 +22,10 @@ public class ModItemGroups {
                 entries.add(ModItems.SUBWOOFER_MUSIC_DISC);
                 entries.add(ModItems.DEATH_MUSIC_DISC);
                 entries.add(ModItems.LIVING_MUSIC_DISC);
+                entries.add(ModItems.MOOG_MUSIC_DISC);
+                entries.add(ModItems.HAGGSTROM_MUSIC_DISC);
+                entries.add(ModItems.MINECRAFT_MUSIC_DISC);
+                entries.add(ModItems.OXYGENE_MUSIC_DISC);
 
             }).build());
 

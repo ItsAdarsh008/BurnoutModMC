@@ -68,5 +68,37 @@
         "stream": true
       }
     ]
+  },
+  "moog": {
+    "sounds": [
+      {
+        "name": "tutorialmod:moog",
+        "stream": true
+      }
+    ]
+  },
+  "haggstrom": {
+    "sounds": [
+      {
+        "name": "tutorialmod:haggstrom",
+        "stream": true
+      }
+    ]
+  },
+  "minecraft": {
+    "sounds": [
+      {
+        "name": "tutorialmod:minecraft",
+        "stream": true
+      }
+    ]
+  },
+  "oxygene": {
+    "sounds": [
+      {
+        "name": "tutorialmod:oxygene",
+        "stream": true
+      }
+    ]
   }
 }

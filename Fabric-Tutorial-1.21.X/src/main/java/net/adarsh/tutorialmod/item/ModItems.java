@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -31,6 +32,19 @@ public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new I
     public static final Item LIVING_MUSIC_DISC = registerItem("living_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.LIVING_KEY).maxCount(1)));
 
+    public static final Item MOOG_MUSIC_DISC = registerItem("moog_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.MOOG_KEY).maxCount(1)));
+
+    public static final Item HAGGSTROM_MUSIC_DISC = registerItem("haggstrom_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.HAGGSTROM_KEY).maxCount(1)));
+
+    public static final Item MINECRAFT_MUSIC_DISC = registerItem("minecraft_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.MINECRAFT_KEY).maxCount(1)));
+
+    public static final Item OXYGENE_MUSIC_DISC = registerItem("oxygene_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.OXYGENE_KEY).maxCount(1)));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
@@ -44,6 +58,10 @@ public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new I
             entries.add(SUBWOOFER_MUSIC_DISC);
             entries.add(DEATH_MUSIC_DISC);
             entries.add(LIVING_MUSIC_DISC);
+            entries.add(MOOG_MUSIC_DISC);
+            entries.add(HAGGSTROM_MUSIC_DISC);
+            entries.add(MINECRAFT_MUSIC_DISC);
+            entries.add(OXYGENE_MUSIC_DISC);
 
         });
     }
