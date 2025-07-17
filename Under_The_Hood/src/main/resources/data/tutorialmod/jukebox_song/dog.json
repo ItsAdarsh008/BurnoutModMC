@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.tutorialmod.dog_music_disc.desc"
+  },
+  "length_in_seconds": 149.0,
+  "sound_event": "tutorialmod:dog"
+}

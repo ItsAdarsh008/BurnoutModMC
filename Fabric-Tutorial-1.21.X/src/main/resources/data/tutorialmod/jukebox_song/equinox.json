@@ -1,8 +1,0 @@
-{
-  "comparator_output": 15,
-  "description": {
-    "translate": "item.tutorialmod.equinox_music_disc.desc"
-  },
-  "length_in_seconds": 172.0,
-  "sound_event": "tutorialmod:equinox"
-}

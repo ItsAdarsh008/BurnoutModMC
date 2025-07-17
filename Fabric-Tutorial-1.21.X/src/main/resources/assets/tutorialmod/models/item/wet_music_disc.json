@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "tutorialmod:item/wet_music_disc"
-  }
-}
