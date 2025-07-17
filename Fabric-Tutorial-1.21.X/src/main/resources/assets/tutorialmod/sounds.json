@@ -28,5 +28,13 @@
     "sounds": [
       "tutorialmod:garnet_block_fall"
     ]
+  },
+  "key": {
+    "sounds": [
+      {
+        "name": "tutorialmod:key",
+        "stream": true
+      }
+    ]
   }
 }
