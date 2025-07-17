@@ -8,6 +8,12 @@
   "item.tutorialmod.door_music_disc": "v1 - Door",
   "item.tutorialmod.door_music_disc.desc": "C418 - Door",
 
+  "item.tutorialmod.subwoofer_music_disc": "v1 - Subwoofer Lullaby",
+  "item.tutorialmod.subwoofer_music_disc.desc": "C418 - Subwoofer Lullaby",
+
+  "item.tutorialmod.death_music_disc": "v1 - Death",
+  "item.tutorialmod.death_music_disc.desc": "C418 - Death",
+
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 

@@ -44,5 +44,21 @@
         "stream": true
       }
     ]
+  },
+  "subwoofer": {
+    "sounds": [
+      {
+        "name": "tutorialmod:subwoofer",
+        "stream": true
+      }
+    ]
+  },
+  "death": {
+    "sounds": [
+      {
+        "name": "tutorialmod:death",
+        "stream": true
+      }
+    ]
   }
 }

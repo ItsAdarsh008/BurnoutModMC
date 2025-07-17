@@ -21,6 +21,8 @@ public class ModItemGroups {
                 entries.add(ModItems.RAW_PINK_GARNET);
                 entries.add(ModItems.KEY_MUSIC_DISC);
                 entries.add(ModItems.DOOR_MUSIC_DISC);
+                entries.add(ModItems.SUBWOOFER_MUSIC_DISC);
+                entries.add(ModItems.DEATH_MUSIC_DISC);
 
             }).build());
 
