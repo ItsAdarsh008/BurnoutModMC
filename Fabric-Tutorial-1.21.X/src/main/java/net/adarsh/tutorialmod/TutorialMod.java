@@ -3,6 +3,7 @@ package net.adarsh.tutorialmod;
 import net.adarsh.tutorialmod.block.ModBlocks;
 import net.adarsh.tutorialmod.item.ModItemGroups;
 import net.adarsh.tutorialmod.item.ModItems;
+import net.adarsh.tutorialmod.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,5 +20,6 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
 	}
 }

@@ -1,0 +1,32 @@
+{
+  "garnet_block_break": {
+    "subtitle": "sounds.tutorialmod.garnet_block_break",
+    "sounds": [
+      "tutorialmod:garnet_block_break"
+    ]
+  },
+  "garnet_block_step": {
+    "subtitle": "sounds.tutorialmod.garnet_block_step",
+    "sounds": [
+      "tutorialmod:garnet_block_step"
+    ]
+  },
+  "garnet_block_place": {
+    "subtitle": "sounds.tutorialmod.garnet_block_place",
+    "sounds": [
+      "tutorialmod:garnet_block_place"
+    ]
+  },
+  "garnet_block_hit": {
+    "subtitle": "sounds.tutorialmod.garnet_block_hit",
+    "sounds": [
+      "tutorialmod:garnet_block_hit"
+    ]
+  },
+  "garnet_block_fall": {
+    "subtitle": "sounds.tutorialmod.garnet_block_fall",
+    "sounds": [
+      "tutorialmod:garnet_block_fall"
+    ]
+  }
+}
