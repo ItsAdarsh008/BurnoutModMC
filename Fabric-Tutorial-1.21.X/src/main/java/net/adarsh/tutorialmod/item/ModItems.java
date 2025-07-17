@@ -44,6 +44,51 @@ public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new I
     public static final Item OXYGENE_MUSIC_DISC = registerItem("oxygene_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.OXYGENE_KEY).maxCount(1)));
 
+    public static final Item EQUINOX_MUSIC_DISC = registerItem("equinox_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.EQUINOX_KEY).maxCount(1)));
+
+    public static final Item MICE_MUSIC_DISC = registerItem("mice_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.MICE_KEY).maxCount(1)));
+
+    public static final Item DRY_MUSIC_DISC = registerItem("dry_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DRY_KEY).maxCount(1)));
+
+    public static final Item WET_MUSIC_DISC = registerItem("wet_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.WET_KEY).maxCount(1)));
+
+    public static final Item CLARK_MUSIC_DISC = registerItem("clark_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.CLARK_KEY).maxCount(1)));
+
+    public static final Item CHRIS_MUSIC_DISC = registerItem("chris_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.CHRIS_KEY).maxCount(1)));
+
+    public static final Item THIRTEEN_MUSIC_DISC = registerItem("thirteen_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.THIRTEEN_KEY).maxCount(1)));
+
+    public static final Item EXCUSE_MUSIC_DISC = registerItem("excuse_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.EXCUSE_KEY).maxCount(1)));
+
+    public static final Item SWEDEN_MUSIC_DISC = registerItem("sweden_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.SWEDEN_KEY).maxCount(1)));
+
+    public static final Item CAT_MUSIC_DISC = registerItem("cat_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.CAT_KEY).maxCount(1)));
+
+    public static final Item DOG_MUSIC_DISC = registerItem("dog_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DOG_KEY).maxCount(1)));
+
+    public static final Item DANNY_MUSIC_DISC = registerItem("danny_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DANNY_KEY).maxCount(1)));
+
+    public static final Item BEGINNING_MUSIC_DISC = registerItem("beginning_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BEGINNING_KEY).maxCount(1)));
+
+    public static final Item DROOPYR_MUSIC_DISC = registerItem("droopyr_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DROOPYR_KEY).maxCount(1)));
+
+    public static final Item DROOPYY_MUSIC_DISC = registerItem("droopyy_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DROOPYY_KEY).maxCount(1)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
@@ -62,6 +107,21 @@ public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new I
             entries.add(HAGGSTROM_MUSIC_DISC);
             entries.add(MINECRAFT_MUSIC_DISC);
             entries.add(OXYGENE_MUSIC_DISC);
+            entries.add(EQUINOX_MUSIC_DISC);
+            entries.add(MICE_MUSIC_DISC);
+            entries.add(DRY_MUSIC_DISC);
+            entries.add(WET_MUSIC_DISC);
+            entries.add(CLARK_MUSIC_DISC);
+            entries.add(CHRIS_MUSIC_DISC);
+            entries.add(THIRTEEN_MUSIC_DISC);
+            entries.add(EXCUSE_MUSIC_DISC);
+            entries.add(SWEDEN_MUSIC_DISC);
+            entries.add(CAT_MUSIC_DISC);
+            entries.add(DOG_MUSIC_DISC);
+            entries.add(DANNY_MUSIC_DISC);
+            entries.add(BEGINNING_MUSIC_DISC);
+            entries.add(DROOPYR_MUSIC_DISC);
+            entries.add(DROOPYY_MUSIC_DISC);
 
         });
     }

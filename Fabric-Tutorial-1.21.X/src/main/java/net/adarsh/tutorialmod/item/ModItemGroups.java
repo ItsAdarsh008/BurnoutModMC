@@ -26,10 +26,25 @@ public class ModItemGroups {
                 entries.add(ModItems.HAGGSTROM_MUSIC_DISC);
                 entries.add(ModItems.MINECRAFT_MUSIC_DISC);
                 entries.add(ModItems.OXYGENE_MUSIC_DISC);
+                entries.add(ModItems.EQUINOX_MUSIC_DISC);
+                entries.add(ModItems.MICE_MUSIC_DISC);
+                entries.add(ModItems.DRY_MUSIC_DISC);
+                entries.add(ModItems.WET_MUSIC_DISC);
+                entries.add(ModItems.CLARK_MUSIC_DISC);
+                entries.add(ModItems.CHRIS_MUSIC_DISC);
+                entries.add(ModItems.THIRTEEN_MUSIC_DISC);
+                entries.add(ModItems.EXCUSE_MUSIC_DISC);
+                entries.add(ModItems.SWEDEN_MUSIC_DISC);
+                entries.add(ModItems.CAT_MUSIC_DISC);
+                entries.add(ModItems.DOG_MUSIC_DISC);
+                entries.add(ModItems.DANNY_MUSIC_DISC);
+                entries.add(ModItems.BEGINNING_MUSIC_DISC);
+                entries.add(ModItems.DROOPYR_MUSIC_DISC);
+                entries.add(ModItems.DROOPYY_MUSIC_DISC);
 
             }).build());
 
-    public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+    /*public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
     Identifier.of(TutorialMod.MOD_ID, "pink_garnet_blocks"),
     FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
             .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_blocks"))
@@ -37,7 +52,7 @@ public class ModItemGroups {
                 entries.add(ModBlocks.PINK_GARNET_BLOCK);
                 entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
 
-            }).build());
+            }).build());*/
 
 
 

@@ -100,5 +100,125 @@
         "stream": true
       }
     ]
+  },
+  "equinox": {
+    "sounds": [
+      {
+        "name": "tutorialmod:equinox",
+        "stream": true
+      }
+    ]
+  },
+  "mice": {
+    "sounds": [
+      {
+        "name": "tutorialmod:mice",
+        "stream": true
+      }
+    ]
+  },
+  "dry": {
+    "sounds": [
+      {
+        "name": "tutorialmod:dry",
+        "stream": true
+      }
+    ]
+  },
+  "wet": {
+    "sounds": [
+      {
+        "name": "tutorialmod:wet",
+        "stream": true
+      }
+    ]
+  },
+  "clark": {
+    "sounds": [
+      {
+        "name": "tutorialmod:clark",
+        "stream": true
+      }
+    ]
+  },
+  "chris": {
+    "sounds": [
+      {
+        "name": "tutorialmod:chris",
+        "stream": true
+      }
+    ]
+  },
+  "thirteen": {
+    "sounds": [
+      {
+        "name": "tutorialmod:thirteen",
+        "stream": true
+      }
+    ]
+  },
+  "excuse": {
+    "sounds": [
+      {
+        "name": "tutorialmod:excuse",
+        "stream": true
+      }
+    ]
+  },
+  "sweden": {
+    "sounds": [
+      {
+        "name": "tutorialmod:sweden",
+        "stream": true
+      }
+    ]
+  },
+  "cat": {
+    "sounds": [
+      {
+        "name": "tutorialmod:cat",
+        "stream": true
+      }
+    ]
+  },
+  "dog": {
+    "sounds": [
+      {
+        "name": "tutorialmod:dog",
+        "stream": true
+      }
+    ]
+  },
+  "danny": {
+    "sounds": [
+      {
+        "name": "tutorialmod:danny",
+        "stream": true
+      }
+    ]
+  },
+  "beginning": {
+    "sounds": [
+      {
+        "name": "tutorialmod:beginning",
+        "stream": true
+      }
+    ]
+  },
+  "droopyr": {
+    "sounds": [
+      {
+        "name": "tutorialmod:droopyr",
+        "stream": true
+      }
+    ]
+  },
+  "droopyy": {
+    "sounds": [
+      {
+        "name": "tutorialmod:droopyy",
+        "stream": true
+      }
+    ]
   }
 }
