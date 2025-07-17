@@ -36,5 +36,13 @@
         "stream": true
       }
     ]
+  },
+  "door": {
+    "sounds": [
+      {
+        "name": "tutorialmod:door",
+        "stream": true
+      }
+    ]
   }
 }

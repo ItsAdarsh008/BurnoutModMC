@@ -14,12 +14,13 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
     Identifier.of(TutorialMod.MOD_ID, "pink_garnet_items"),
-    FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
-            .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_items"))
+    FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KEY_MUSIC_DISC))
+            .displayName(Text.translatable("itemgroup.tutorialmod.key_items"))
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.PINK_GARNET);
                 entries.add(ModItems.RAW_PINK_GARNET);
                 entries.add(ModItems.KEY_MUSIC_DISC);
+                entries.add(ModItems.DOOR_MUSIC_DISC);
 
             }).build());
 
