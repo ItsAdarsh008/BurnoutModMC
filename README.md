@@ -8,7 +8,20 @@ Currently, discs may be found in the Creative Menu or will be dropped by Creeper
 
 I would like to thank KaupenJoe for his wonderful Fabric tutorial, found on his [youtube channel](https://www.youtube.com/@ModdingByKaupenjoe).
 
-## Version: Fabric 1.21 **[FABRIC API REQUIRED]**
+## Installation Instructions
+
+Version: Fabric 1.21 **[FABRIC API REQUIRED]**
+
+[Fabric Installer (ENSURE YOU DOWNLOAD FABRIC 1.21!)](https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.3/fabric-installer-1.0.3.exe)
+
+Once you have installed Fabric 1.21, start minecraft for the first time, then close it. This will create the mods folder.
+
+Then, go to your minecraft mods folder (%appdata%/.minecraft/mods), and install the [mod](/MOD_DOWNLOAD.jar).  
+Put the installed mod into the folder, along with the **FABRIC API:**  
+
+[Fabric API Download for 1.21](https://www.curseforge.com/api/v1/mods/306612/files/5605482/download)
+
+Once both the mod and the API are in the folder, you are ready to play! Enjoy : )
 
 ## Minecraft OST (C418 Volume Alpha):
 
