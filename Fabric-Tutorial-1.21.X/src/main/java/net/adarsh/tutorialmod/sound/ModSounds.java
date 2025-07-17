@@ -37,6 +37,10 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> DEATH_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "death"));
 
+    public static final SoundEvent LIVING = registerSoundEvent("living");
+    public static final RegistryKey<JukeboxSong> LIVING_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(TutorialMod.MOD_ID, "living"));
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(TutorialMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

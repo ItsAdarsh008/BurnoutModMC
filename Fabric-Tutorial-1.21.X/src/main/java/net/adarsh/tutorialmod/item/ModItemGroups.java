@@ -17,12 +17,11 @@ public class ModItemGroups {
     FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KEY_MUSIC_DISC))
             .displayName(Text.translatable("itemgroup.tutorialmod.key_items"))
             .entries((displayContext, entries) -> {
-                entries.add(ModItems.PINK_GARNET);
-                entries.add(ModItems.RAW_PINK_GARNET);
                 entries.add(ModItems.KEY_MUSIC_DISC);
                 entries.add(ModItems.DOOR_MUSIC_DISC);
                 entries.add(ModItems.SUBWOOFER_MUSIC_DISC);
                 entries.add(ModItems.DEATH_MUSIC_DISC);
+                entries.add(ModItems.LIVING_MUSIC_DISC);
 
             }).build());
 

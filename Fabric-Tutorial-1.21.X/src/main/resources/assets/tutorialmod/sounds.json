@@ -60,5 +60,13 @@
         "stream": true
       }
     ]
+  },
+  "living": {
+    "sounds": [
+      {
+        "name": "tutorialmod:living",
+        "stream": true
+      }
+    ]
   }
 }

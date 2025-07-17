@@ -28,6 +28,9 @@ public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new I
     public static final Item DEATH_MUSIC_DISC = registerItem("death_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.DEATH_KEY).maxCount(1)));
 
+    public static final Item LIVING_MUSIC_DISC = registerItem("living_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.LIVING_KEY).maxCount(1)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
@@ -35,11 +38,12 @@ public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new I
     public static void registerModItems() {
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(KEY_MUSIC_DISC);
             entries.add(DOOR_MUSIC_DISC);
             entries.add(SUBWOOFER_MUSIC_DISC);
             entries.add(DEATH_MUSIC_DISC);
+            entries.add(LIVING_MUSIC_DISC);
 
         });
     }
